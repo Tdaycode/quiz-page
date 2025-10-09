@@ -668,7 +668,7 @@ log('🔌 Connecting to server...', 'info');
 };
 
 function connectSocket() {
-socket = io('http://localhost:3000', {
+socket = io('https://realtime-quiz-backend-production.up.railway.app', {
     reconnection: true,
     reconnectionDelay: 1000,
     reconnectionDelayMax: 5000,
